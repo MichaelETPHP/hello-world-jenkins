@@ -34,8 +34,8 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com/</uri>
 						<muleVersion>4.3.0</muleVersion>
-						<username>CraftMuleClass</username>
-						<password>Craft@123</password>
+						<username>craftDepTest</username>
+						<password>Hello@123</password>
 						<applicationName>hello-world-jenkins-v01</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
