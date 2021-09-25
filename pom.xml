@@ -36,7 +36,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<username>CraftMuleClass</username>
 						<password>Craft@123</password>
-						<applicationName>apicraft</applicationName>
+						<applicationName>hello-world-jenkins-v01</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
