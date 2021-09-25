@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/java
 ---
 {
-	msg: "Hello World"
+	msg: "Hello World !"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
