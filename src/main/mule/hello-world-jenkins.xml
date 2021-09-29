@@ -10,6 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="hello-world-jenkinsFlow" doc:id="b719c207-6649-4d38-a3c6-876adea60fe3" >
 		<http:listener doc:name="Listener" doc:id="bc3de4a4-6cb1-46e7-ac23-1a569f9c6eb9" config-ref="HTTP_Listener_config" path="/dep"/>
+		<logger level="INFO" doc:name="Logger" doc:id="f0b7ca97-0a66-4e33-86a4-e0453c5094e6" message="LOgger"/>
 		<set-payload value="Hello Message from Payload" doc:name="Test payload" doc:id="ea419d66-2aed-4bc9-97ca-8d07e0caf641" />
 		<ee:transform doc:name="Transform Message" doc:id="ba4f0267-fb7d-42d5-9ce9-7b724df03e06" >
 			<ee:message >
